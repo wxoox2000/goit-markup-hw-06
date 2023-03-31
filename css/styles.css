@@ -491,12 +491,13 @@ header {
 /* Subscribe form */
 
 .subscribe-form {
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .subscribe-box {
   display: flex;
   align-items: end;
+  margin-top: 16px;
 }
 
 .subscribe-label {
@@ -512,7 +513,6 @@ header {
   display: block;
   width: 264px;
   height: 40px;
-  margin-top: 16px;
   padding: 8px 0 8px 16px;
 
   background-color: var(--main-color-text);
@@ -591,7 +591,6 @@ header {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   min-width: 408px;
-  min-height: 576px;
   padding: 72px 24px 24px;
 
   transition: transform var(--hover-transition);
@@ -632,7 +631,7 @@ header {
   fill: var(--main-white-color);
 }
 
-.modal-form-group .subscribe-label {
+.modal .subscribe-label {
   color: var(--main-color-text);
   text-align: center;
   margin-bottom: 16px;
